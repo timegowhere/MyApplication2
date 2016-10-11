@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
-
-
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
 }
